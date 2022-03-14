@@ -1,5 +1,6 @@
+require('dotenv').config()
 const mongoose = require('mongoose')
-const url = "mongodb+srv://leke:codelab2020@cluster0.cmc9k.mongodb.net/universities?retryWrites=true&w=majority"
+const url = process.env.CLOUD_DB
 
 mongoose.connect(url).then(()=>{
     console.log('your server is connected to a database')
