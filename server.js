@@ -1,6 +1,6 @@
 require('./config/config')
 const express = require('express')
-port = 1000
+port = process.env.PORT || 1000
 const allRoutes = require('./route/route')
 
 const app = express()
