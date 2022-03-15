@@ -6,7 +6,7 @@ const allRoutes = require('./route/route')
 const app = express()
 app.get('/', (req, res)=>{
     res.status(200).json({
-        message: "THIS IS THE SCHOOL API WELCOME, THANKS FOR YOUUR SURPPORT ASAKEMI"
+        message: `This is an endpoint for the API running on server port ${port}`
     })
 })
 
