@@ -6,7 +6,7 @@ const allRoutes = require('./route/route')
 const app = express()
 app.get('/', (req, res)=>{
     res.status(200).json({
-        message: `This is an endpoint for the API running on server port ${port}`
+        message: `This Server is Running on port: ${port}, Your message is here https://universities-app.herokuapp.com/message`
     })
 })
 
