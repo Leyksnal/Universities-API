@@ -6,7 +6,7 @@ const allRoutes = require('./route/route')
 const app = express()
 app.get('/', (req, res)=>{
     res.status(200).json({
-        message: `Welcome to my API, This Server is Running on port: ${port}`
+        message: `This Server is Running on port: ${port}`
     })
 })
 
