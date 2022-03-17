@@ -12,7 +12,7 @@ app.get('/', (req, res)=>{
 
 app.get('/message', (req, res)=>{
     res.status(200).json({
-        message: `Sometimes we just need to move on when things does not turns out to be the way we wanted it to be, if life was an overtime opporunity to make a turn we might not even know the importance of staying healthy and regulating our well being, but because it is a one time opportunity we tend to be more sensitive about our life structure such that we dont want to risk dying even at 0.5% risk assessment. My dear brother nobody can ever take or claim what is meant to be for you and what has been destined for you by Almighty ALLAH (S.W.A)`
+        message: `Sometimes we just need to move on when things does not turns out to be the way we wanted it to be, if life was an overtime opporunity to make a turn we might not even know the importance of staying healthy and regulating our well being, but because it is a one time opportunity we tend to be more sensitive about our life structure such that we dont want to risk dying even at 0.5% risk assessment. My dear brother nobody can ever take or claim what is meant to be for you and what has been destined for you by Almighty ALLAH (S.W.A) I hope you understand and digest this message well.... THANKS FOR YOUR TIME`
     })
 })
 
